@@ -18,3 +18,15 @@ body{
   display: inline-block;
   width: auto;
 }
+
+.center{
+  text-align: center;	
+}
+
+#sign-in {
+  text-align: right;
+}
+
+.class-inline {
+  display: inline;
+}

@@ -11,8 +11,10 @@
 
   <div id="main">
   <% if current_user %>
+  <div id="sign-in">
     Signed in as <strong><%= current_user.name %></strong>!
     <%= link_to "Sign out", signout_path, id: "sign_out" %>
+  </div>
 	<%= yield %>
   <% else %>
     <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>

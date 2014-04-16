@@ -9,24 +9,30 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  */
-body{
+body {
   background-color: rgb(235, 213, 186);
 }
 
-#comments {
-  background-color: rgb(139, 93, 93);
-  display: inline-block;
-  width: auto;
+.center {
+  text-align: center;	
 }
 
-.center{
-  text-align: center;	
+.class-inline {
+  display: inline;
+}
+
+#time-ago {
+  font-style: italic;
+  font-size: 11px;
+  padding-left: 14px;
 }
 
 #sign-in {
   text-align: right;
 }
 
-.class-inline {
-  display: inline;
+#comments {
+  background-color: rgb(139, 93, 93);
+  display: inline-block;
+  width: auto;
 }

@@ -1,5 +1,5 @@
- <div> 
+ <div  class="link_class"> 
    <%= link_to_unless_current post.title, post %>
  </div>
  
- <%= simple_format post.body %>
+ <div class="post_text"><%= post.body %></div>

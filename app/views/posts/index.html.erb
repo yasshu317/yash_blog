@@ -1,5 +1,6 @@
- <h1 class="class-inline">Posts</h1>
+ <h2>Posts</h2>
+  <%= link_to 'New Post', new_post_path, class: :new_button %>
+
+  <br/><br/>
 
  <%= render :partial => @posts %>
-
- <%= link_to 'New Post', new_post_path %>

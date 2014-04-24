@@ -17,8 +17,14 @@
   </div>
   <div class="field">
     <%= f.label :body %><br />
-    <%= f.text_area :body %>
+    <%= f.text_area :body , :size => "50x7"%>
   </div>
+<div>
+  <label>Categories:</label><br/>
+  <%= select_tag 'category_id', options_from_collection_for_select(Category.all, "id", "name") %>
+</div>
+
+<br/><br/>
   <div class="actions">
     <%= f.submit %>
   </div>

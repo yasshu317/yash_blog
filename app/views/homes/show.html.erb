@@ -1,0 +1,8 @@
+  <% if current_user %>
+	<%= image_tag current_user.image %> 
+  <% end %>
+
+ <p>
+  <b>Name:</b>
+  <%= @user.name %>
+</p>

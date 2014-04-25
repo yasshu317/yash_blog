@@ -1,8 +1,18 @@
-  <% if current_user %>
-	<%= image_tag current_user.image %> 
-  <% end %>
+<p>
+  <b>First Name:</b>
+  <%= @user.user_profile.first_name %>
+</p>
 
- <p>
-  <b>Name:</b>
-  <%= @user.name %>
+<p>
+  <b>Last Name:</b>
+  <%= @user.user_profile.last_name %>
+</p>
+<p>
+  <b>Gender:</b>
+  <%= @user.user_profile.gender%>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @user.user_profile.email %>
 </p>
